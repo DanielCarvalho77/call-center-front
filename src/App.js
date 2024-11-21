@@ -1,11 +1,11 @@
-import Input from './Components/Input';
-import logo from './logo.svg';
+import Form from './Components/Form';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div>
-      <Input label="Nome" placeholder="Digite seu nome" type="text"/>
-      <Input placeholder="idade" type="number"/>
+      <Header/>
+      <Form/>
     </div>
   );
 }
