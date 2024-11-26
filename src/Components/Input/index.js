@@ -3,7 +3,7 @@ import './index.css'
 const Input = (props) => {
 
     const keyed = ( event ) => {
-        props.keyedUser(event.target.value)
+        props.alterKeyedUser(event.target.value)
     }
 
     return (
